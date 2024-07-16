@@ -1,7 +1,7 @@
 import server from "./server";
 import { useEffect, useState } from "react";
 import Transfer from "./Transfer";
-import Wallets from "./Wallets";
+import Wallets from "./Wallet";
 import Instructions from "./Instructions";
 import "./App.scss";
 
