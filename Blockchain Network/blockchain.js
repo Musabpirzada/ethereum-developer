@@ -5,6 +5,9 @@ class Blockchain {
         const genesisblock = new Block("Genesis Block");
         this.chain = [genesisblock];
     }
+    addBlock(newBlock){
+        this.chain.push(newBlock);
+    }
 }
 
 module.exports = Blockchain;
